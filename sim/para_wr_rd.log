@@ -1,0 +1,132 @@
+Compiling in /home/trushali/Training/SV/testbench/dual_port_ram
+LICENSE: Waiting for license.
+# Aldec, Inc. Riviera-PRO version 2025.10.126.10025 built for Linux64 on December 12, 2025.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2025 Aldec, Inc. All rights reserved.
+# 30
+# ALIB: Library "work" attached.
+# work = /home/trushali/Training/SV/testbench/dual_port_ram/work/work.lib
+# AMAP: Adding library mapping "work" to "/home/trushali/Training/SV/testbench/dual_port_ram/work/work.lib".
+# ALOG: Unit top modules: testbench.
+# ALOG: Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# ALOG: done
+Simulating in /home/trushali/Training/SV/testbench/dual_port_ram
+# Aldec, Inc. Riviera-PRO version 2025.10.126.10025 built for Linux64 on December 12, 2025.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2025 Aldec, Inc. All rights reserved.
+# 30
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library '/home/trushali/Aldec/Riviera-PRO-2025.10-x64/bin/libsystf.so'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# SLP: 0 primitives and 3 (75.00%) other processes in SLP
+# SLP: 11 (1.68%) signals in SLP and 82 (12.56%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5064 kB (elbread=472 elab2=4518 kernel=73 sdf=0)
+# KERNEL: ASDB file was created in location /home/trushali/Training/SV/testbench/dual_port_ram/dataset.asdb
+# KERNEL: RESET CALLED 0
+# KERNEL: RESET END 50
+# KERNEL: Info: mul_wr_rd_same.sv (15): NUM = 10
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [50]
+# KERNEL: DATA_A: 0 | DATA_B: 0 | ADDR_A : 0 | ADDR_B: 0 | WE_A: 0 | WE_B: 0 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [70]
+# KERNEL: DATA_A: 7b | DATA_B: b6 | ADDR_A : b1 | ADDR_B: 65 | WE_A: 1 | WE_B: 1 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [90]
+# KERNEL: DATA_A: 65 | DATA_B: 65 | ADDR_A : 97 | ADDR_B: 51 | WE_A: 1 | WE_B: 1 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [110]
+# KERNEL: DATA_A: d9 | DATA_B: 41 | ADDR_A : 60 | ADDR_B: 84 | WE_A: 1 | WE_B: 1 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [130]
+# KERNEL: DATA_A: f6 | DATA_B: e2 | ADDR_A : 3a | ADDR_B: b9 | WE_A: 1 | WE_B: 1 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [150]
+# KERNEL: DATA_A: 8d | DATA_B: 3c | ADDR_A : c7 | ADDR_B: c3 | WE_A: 1 | WE_B: 1 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [170]
+# KERNEL: DATA_A: 97 | DATA_B: 99 | ADDR_A : 24 | ADDR_B: 4a | WE_A: 1 | WE_B: 1 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [190]
+# KERNEL: DATA_A: 3f | DATA_B: 91 | ADDR_A : c3 | ADDR_B: dc | WE_A: 1 | WE_B: 1 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [210]
+# KERNEL: DATA_A: a2 | DATA_B: 9d | ADDR_A : 63 | ADDR_B: 5f | WE_A: 1 | WE_B: 1 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [230]
+# KERNEL: DATA_A: 33 | DATA_B: bf | ADDR_A : 89 | ADDR_B: a3 | WE_A: 1 | WE_B: 1 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [250]
+# KERNEL: DATA_A: ee | DATA_B: 7d | ADDR_A : a0 | ADDR_B: b3 | WE_A: 1 | WE_B: 1 | Q_A: 0 | Q_B: 0
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [270]
+# KERNEL: DATA_A: 8b | DATA_B: 37 | ADDR_A : b1 | ADDR_B: 65 | WE_A: 0 | WE_B: 0 | Q_A: 7b | Q_B: b6
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [290]
+# KERNEL: DATA_A: ec | DATA_B: 57 | ADDR_A : 97 | ADDR_B: 51 | WE_A: 0 | WE_B: 0 | Q_A: 65 | Q_B: 65
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [310]
+# KERNEL: DATA_A: b6 | DATA_B: 3e | ADDR_A : 60 | ADDR_B: 84 | WE_A: 0 | WE_B: 0 | Q_A: d9 | Q_B: 41
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [330]
+# KERNEL: DATA_A: ec | DATA_B: d2 | ADDR_A : 3a | ADDR_B: b9 | WE_A: 0 | WE_B: 0 | Q_A: f6 | Q_B: e2
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [350]
+# KERNEL: DATA_A: fe | DATA_B: 39 | ADDR_A : c7 | ADDR_B: c3 | WE_A: 0 | WE_B: 0 | Q_A: 8d | Q_B: 3f
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [370]
+# KERNEL: DATA_A: fd | DATA_B: 99 | ADDR_A : 24 | ADDR_B: 4a | WE_A: 0 | WE_B: 0 | Q_A: 97 | Q_B: 99
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [390]
+# KERNEL: DATA_A: c2 | DATA_B: 25 | ADDR_A : c3 | ADDR_B: dc | WE_A: 0 | WE_B: 0 | Q_A: 3f | Q_B: 91
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [410]
+# KERNEL: DATA_A: ba | DATA_B: b9 | ADDR_A : 63 | ADDR_B: 5f | WE_A: 0 | WE_B: 0 | Q_A: a2 | Q_B: 9d
+# KERNEL: --------------------------------------
+# KERNEL: ************PASS******************
+# KERNEL: [SCO] | [430]
+# KERNEL: DATA_A: d5 | DATA_B: fe | ADDR_A : 89 | ADDR_B: a3 | WE_A: 0 | WE_B: 0 | Q_A: 33 | Q_B: bf
+# KERNEL: --------------------------------------
+# KERNEL: Info: design_tb.sv (36): WAIT DONE 430
+# RUNTIME: Info: RUNTIME_0068 design_tb.sv (38): $finish called.
+# KERNEL: Time: 450 ps,  Iteration: 1,  Instance: /testbench,  Process: @INITIAL#31_1@.
+# KERNEL: stopped at time: 450 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
